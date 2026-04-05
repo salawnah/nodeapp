@@ -1,10 +1,9 @@
 {
   "name": "nodeapp",
   "version": "1.0.0",
-  "main": "app.js",
   "scripts": {
-    "start": "node ./app.js",
-    "run": "node ./app.js"
+    "start": "node --preserve-symlinks --preserve-symlinks-main ./app.js",
+    "run": "node --preserve-symlinks --preserve-symlinks-main ./app.js"
   },
   "author": "",
   "license": "ISC",
